@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 context,
                 MaterialPageRoute(
                   builder: (context) => Tow(
-                    name: _nameController.text, // تمرير الحقل الأول فقط
+                    name: _nameController.text, 
                   ),
                 ),
               );
